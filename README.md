@@ -70,3 +70,5 @@ frontend/decoartes3d-web/
   `dotnet ef database update --project Decoartes3D.Infrastructure --startup-project Decoartes3D.API`
 - Compila la web con `npm run build` y sirve `dist/` detrás del mismo dominio que la API (o define `VITE_API_URL`).
 - La tienda no integra pasarela de pago: el pedido queda en "Pendiente" y el pago se gestiona aparte.
+
+<img width="1089" height="893" alt="image" src="https://github.com/user-attachments/assets/1d840f6b-ef81-4152-959a-c1682c7eee27" />
