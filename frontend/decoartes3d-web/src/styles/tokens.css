@@ -1,0 +1,41 @@
+:root {
+  /* Paleta: papel cálido, tinta y terracota (el color del filamento). */
+  --bg: #faf7f2;
+  --surface: #ffffff;
+  --surface-2: #f3eee6;
+  --ink: #1f1b16;
+  --ink-2: #4d463e;
+  --muted: #7d7368;
+  --line: #e6ded2;
+  --line-strong: #d3c8b8;
+
+  --accent: #c4622d;
+  --accent-hover: #a9501f;
+  --accent-soft: #f6e2d6;
+  --accent-ink: #ffffff;
+
+  --success: #2f6d3e;
+  --success-soft: #e2efe4;
+  --warning: #93600f;
+  --warning-soft: #fbefd6;
+  --danger: #b3261e;
+  --danger-soft: #f9e1df;
+  --info: #2a5f86;
+  --info-soft: #e1ecf5;
+  --violet: #5b4a9a;
+  --violet-soft: #ebe6f7;
+
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --radius-lg: 20px;
+  --radius: 14px;
+  --radius-sm: 8px;
+  --shadow-sm: 0 1px 2px rgb(31 27 22 / 6%), 0 1px 1px rgb(31 27 22 / 4%);
+  --shadow: 0 6px 24px -8px rgb(31 27 22 / 18%), 0 2px 6px rgb(31 27 22 / 5%);
+  --focus: 0 0 0 3px rgb(196 98 45 / 35%);
+
+  --container: 1200px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --header-height: 68px;
+}

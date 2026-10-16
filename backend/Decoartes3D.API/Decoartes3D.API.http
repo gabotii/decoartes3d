@@ -1,0 +1,35 @@
+@api = http://localhost:5217
+
+### Catálogo público
+GET {{api}}/api/products?pageNumber=1&pageSize=12
+
+### Destacados
+GET {{api}}/api/products/featured
+
+### Categorías activas
+GET {{api}}/api/categories
+
+### Login admin (usuario del seed de desarrollo)
+POST {{api}}/api/auth/login
+Content-Type: application/json
+
+{ "email": "admin@decoartes3d.local", "password": "Admin123!" }
+
+### Crear pedido como invitado
+POST {{api}}/api/orders
+Content-Type: application/json
+
+{
+  "shippingFirstName": "Ana",
+  "shippingLastName": "García",
+  "shippingEmail": "ana@example.com",
+  "shippingAddress": "Calle Mayor 1",
+  "shippingCity": "Madrid",
+  "shippingState": "Madrid",
+  "shippingPostalCode": "28001",
+  "shippingCountry": "España",
+  "items": [ { "productId": 1, "quantity": 1 } ]
+}
+
+### Health check
+GET {{api}}/health

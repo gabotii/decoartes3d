@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="Decoartes3D.API/Decoartes3D.API.csproj" />
+  <Project Path="Decoartes3D.Application/Decoartes3D.Application.csproj" />
+  <Project Path="Decoartes3D.Domain/Decoartes3D.Domain.csproj" />
+  <Project Path="Decoartes3D.Infrastructure/Decoartes3D.Infrastructure.csproj" />
+  <Project Path="Decoartes3D.Tests/Decoartes3D.Tests.csproj" />
+</Solution>
